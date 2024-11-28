@@ -8,23 +8,111 @@ body {
     background-repeat: no-repeat; 
     background-position: center; 
     color: #000000; 
+html{
+    box-sizing: border-box;
+
+}
+*, *::before, *::after{
+    box-sizing: inherit;
 }
 
-.header {
-    background: #fffff;
-    color: #2a2a2a;
-    padding: 20px 0;
-    text-align: center;
+html, body {
+    height: 100%;
+    margin: 0;
 }
+html {
+    background-image: url(../img/svg/Красивульки.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+.main {
+    height: 100%;
 }
+.wrapper{
+   max-width: 1217px; 
+   margin: 0 auto;
+}
+.header{
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 56px;
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+ }
+ .header-list{
+     display: flex;
+     flex-wrap: wrap;
+ 
+ }
+ .header_item{
+    display: inline-block;
+    margin-right: 43px;  
+ }  
+ .header_item:last-child{
+    margin-right: 0;
+ }
+ .header-link{
+    color: rgb(42, 42, 42);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+ }
+ .header-link:hover, .header-link:focus, .header-link:active{
+    opacity: .75;
+ }
+ .footer.contact{
+    width: 100%;
+    height: max-content;
+    color: #DBF6E4;
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+ }
+.max_footer{
+
+    max-width: 20%;
+    margin-left: 10%;
+}
+.footer_cont{
+    padding: 0 0 10% 0;
+    size: 200px;
+}
+.footer-pic{
+    size: 20px;
+}
+.button{
+    position: relative;
+    width: 460px;
+    height: 76px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 20px 40px 20px 40px;
+    border-radius: 34px;
+    background: rgb(91, 193, 127);
 }
 
 nav a {
