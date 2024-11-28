@@ -3,24 +3,23 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-image: url('img/backGround.png'); 
+    background-image: url('../img/svg/backGround.png'); 
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
     color: #000000; 
+}
 html{
     box-sizing: border-box;
 
 }
-*, *::before, *::after{
-    box-sizing: inherit;
-}
+
 
 html, body {
     height: 100%;
     margin: 0;
 }
-html {
+//*html {
     background-image: url(../img/svg/Красивульки.svg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -30,7 +29,7 @@ html {
     -o-background-size: cover;
     background-size: cover;
   }
-
+*//
 .main {
     height: 100%;
 }
@@ -113,23 +112,4 @@ html {
     padding: 20px 40px 20px 40px;
     border-radius: 34px;
     background: rgb(91, 193, 127);
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-}
-
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #f1f1f1;
 }
