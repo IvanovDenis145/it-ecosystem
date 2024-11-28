@@ -1,10 +1,9 @@
-
 body {
     font-family: "Poppins", sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-image: url('../img/backGround.png'); 
+    background-image: url('../img/svg/backGround.png'); 
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
@@ -20,8 +19,8 @@ html, body {
     height: 100%;
     margin: 0;
 }
-html {
-    background-image: url('img/Красивульки.svg');
+//*html {
+    background-image: url(../img/svg/Красивульки.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -30,7 +29,7 @@ html {
     -o-background-size: cover;
     background-size: cover;
   }
-
+*//
 .main {
     height: 100%;
 }
